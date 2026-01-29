@@ -12,7 +12,7 @@
    <children>
       <ImageView fitHeight="132.0" fitWidth="184.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../images/img.png" />
+            <Image url="@images/img.png" />
          </image>
       </ImageView>
       <Label layoutX="182.0" layoutY="34.0" text="Discover the language of your system" textFill="#c62121">
