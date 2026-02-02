@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="152.0" prefWidth="199.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="evenorodd.ex018.Controller">
+   <children>
+      <Spinner fx:id="spinnN" layoutX="61.0" layoutY="59.0" onMouseClicked="#onClick" prefHeight="25.0" prefWidth="77.0" />
+      <Label layoutX="67.0" layoutY="28.0" text="Even or Odd" />
+      <Label fx:id="lblMsg" layoutX="65.0" layoutY="102.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
