@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="279.0" prefWidth="382.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="math.ex019.Controller">
+   <children>
+      <Spinner fx:id="spinnA" layoutX="30.0" layoutY="29.0" onMouseClicked="#onClickA" prefHeight="25.0" prefWidth="61.0" />
+      <Spinner fx:id="spinnB" layoutX="150.0" layoutY="30.0" onMouseClicked="#onClickB" prefHeight="25.0" prefWidth="61.0" />
+      <Spinner fx:id="spinnC" layoutX="256.0" layoutY="31.0" onMouseClicked="#onClickC" prefHeight="25.0" prefWidth="61.0" />
+      <Label layoutX="105.0" layoutY="27.0" text="x² +">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="220.0" layoutY="27.0" text="x +">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="324.0" layoutY="29.0" text="= 0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="108.0" layoutY="103.0" text="Δ =">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblB" layoutX="153.0" layoutY="103.0" text="B" textFill="#bf1b1b">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="173.0" layoutY="94.0" text="²">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="182.0" layoutY="103.0" text="- 4 .">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblA" layoutX="228.0" layoutY="103.0" text="A" textFill="#bf1b1b">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="248.0" layoutY="103.0" text=".">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblC" layoutX="263.0" layoutY="103.0" text="C" textFill="#bf1b1b">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="pan" layoutX="8.0" layoutY="175.0" prefHeight="96.0" prefWidth="339.0">
+         <children>
+            <Label layoutX="37.0" layoutY="8.0" text="Δ =">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="35.0" layoutY="56.0" text="Real Roots =">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblDis" alignment="CENTER_RIGHT" layoutX="100.0" layoutY="10.0" prefHeight="25.0" prefWidth="220.0" text="0" textFill="#1d508d">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblReal" alignment="CENTER_RIGHT" layoutX="115.0" layoutY="52.0" prefHeight="25.0" prefWidth="205.0" text="None" textFill="#1d508d">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="btnCalc" layoutX="159.0" layoutY="148.0" mnemonicParsing="false" onAction="#onBtnClick" text="Calculate" />
+   </children>
+</AnchorPane>
