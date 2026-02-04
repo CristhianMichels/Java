@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="256.0" prefWidth="244.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fatorial.ex024.Controller">
+   <children>
+      <Label layoutX="81.0" layoutY="23.0" text="! =">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Spinner fx:id="spinnN" layoutX="21.0" layoutY="25.0" onMouseClicked="#onClick" prefHeight="25.0" prefWidth="54.0" />
+      <Label fx:id="lblResult" layoutX="113.0" layoutY="23.0" text="1" textFill="RED">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="50.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/fatorial.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblfat" layoutX="23.0" layoutY="61.0" prefHeight="17.0" prefWidth="207.0" />
+      <Label fx:id="lblFat" alignment="CENTER" layoutX="4.0" layoutY="53.0" prefHeight="36.0" prefWidth="236.0" textAlignment="CENTER" wrapText="true" />
+   </children>
+</AnchorPane>
