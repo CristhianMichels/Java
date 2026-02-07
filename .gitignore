@@ -1,2 +1,5 @@
 # Documentação Java (offline)
 documentation/
+
+# Ignorar pasta de testes
+testes/
