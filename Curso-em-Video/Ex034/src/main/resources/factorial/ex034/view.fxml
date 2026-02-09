@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="122.0" prefWidth="292.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="factorial.ex034.Controller">
+   <children>
+      <Spinner fx:id="txtNum" layoutX="14.0" layoutY="25.0" prefHeight="25.0" prefWidth="72.0" />
+      <Button fx:id="btnClick" layoutX="98.0" layoutY="25.0" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="48.0" text="!" />
+      <Label fx:id="txtFormula" layoutX="16.0" layoutY="61.0" prefHeight="17.0" prefWidth="260.0" text="Formula" />
+      <Label fx:id="txtResultado" layoutX="16.0" layoutY="85.0" text="Resultado" textFill="#ae1818" />
+   </children>
+</AnchorPane>
