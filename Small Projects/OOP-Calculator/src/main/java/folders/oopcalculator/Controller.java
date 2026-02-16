@@ -84,8 +84,7 @@ public class Controller {
         if (operadores.equals("+")){
 
             lblCalc.setText(num1 + " + " + num2 + " =");
-            resultado = Calc. soma(n1,n2);
-
+            resultado = Calc.soma(n1,n2);
 
         } else if (operadores.equals("-")) {
             lblCalc.setText(num1 + " - " + num2 + " =");

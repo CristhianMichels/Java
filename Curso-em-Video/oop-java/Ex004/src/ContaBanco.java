@@ -3,11 +3,11 @@ public class ContaBanco {
     protected String tipo;
     private String dono;
     private double saldo;
-    private boolean status = false;
+    private boolean status;
 
     public ContaBanco() {
-        saldo = 0;
-        status = false;
+        this.setSaldo(0);
+        this.setStatus(false);
     }
 
     //getters e setters
