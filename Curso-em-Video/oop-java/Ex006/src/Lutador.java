@@ -7,16 +7,27 @@ public class Lutador {
     private String categoria;
     private int vitorias, derrotas, empates;
 
+
+
+
     public void apresentar(){
-        System.out.println("--------------------------------------------------------");
-        System.out.println("CHEGOU A HORA! Apresentando o lutador: " + this.getNome());
+        Sleep.sleep(800);
+        System.out.println("-------------------------------------");
+        System.out.println("Apresentando o lutador: " + this.getNome());
+        Sleep.sleep(600);
         System.out.println("Diretamente de: " + this.getNacionalidade());
-        System.out.println("com " + this.getIdade() + " anos e " + this.getAltura());
-        System.out.println("pesando " + this.getPeso() + " Kg");
+        Sleep.sleep(600);
+        System.out.println("com " + this.getIdade() + " anos e " + this.getAltura() + "m de altura");
+        Sleep.sleep(600);
+        System.out.println("pesando incriveis " + this.getPeso() + " Kg");
+        Sleep.sleep(600);
         System.out.println(this.getVitorias() + " vitórias");
+        Sleep.sleep(600);
         System.out.println(this.getDerrotas() + " Derrotas e");
+        Sleep.sleep(600);
         System.out.println(this.getEmpates() + " empates");
-        System.out.println("--------------------------------------------------------");
+        System.out.println("-------------------------------------");
+        Sleep.sleep(800);
     }
 
     public void status(){
