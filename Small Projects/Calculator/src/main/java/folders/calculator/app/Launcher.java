@@ -1,4 +1,4 @@
-package folders.oopcalculator;
+package folders.calculator.app;
 
 import javafx.application.Application;
 
